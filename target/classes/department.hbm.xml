@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+    <class name="com.klu.ENDSEM.Department" table="labexam">
+        <id name="id" column="idno"/>
+        <property name="id" column="tid"/>
+        <property name="name" column="tname"/>
+        <property name="location" column="tlocation"/>
+        <property name="Hodname" column="thodname"/>
+
+    </class>
+</hibernate-mapping>
